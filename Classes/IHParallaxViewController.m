@@ -46,7 +46,7 @@
 }
 
 - (void)initialize {
-    self.customNavBarColor = nil; // nil gives a transparent nav bar
+    self.customNavBarColor = [UIColor clearColor]; // clearColor gives a transparent nav bar
 }
 
 - (void)viewDidLoad {
