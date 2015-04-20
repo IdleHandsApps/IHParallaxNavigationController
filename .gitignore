@@ -1,2 +1,8 @@
 
 *.xcuserstate
+
+*.xcbkptlist
+
+*.xcscheme
+
+*.plist
