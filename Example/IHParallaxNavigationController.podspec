@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = 'IHParallaxNavigationController'
   s.version          = '1.0'
-  s.summary          = 'IHParallaxNavigationController is a UINavigationController subclass that will give a parallax effect when pushing and popping view controller's
+  s.summary          = 'IHParallaxNavigationController is a UINavigationController subclass that will give a parallax effect when pushing and popping view controllers'
   s.homepage         = 'https://github.com/IdleHandsApps/IHParallaxNavigationController/'
   s.description      = <<-DESC
                        IHParallaxNavigationController is a drop in solution to give you a cool parallax effect when pushing and popping view controllers. Its compatible with Storyboards and requires very little code.
