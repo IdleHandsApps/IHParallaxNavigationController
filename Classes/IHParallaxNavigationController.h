@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "IHParallaxViewController.h"
 
-@interface IHParallaxNavigationController : UINavigationController <IHParallaxDelegate>
+@interface IHParallaxNavigationController : UINavigationController
 
 @property (nonatomic) int currentParallaxLevel;
 @property (nonatomic) int totalParallaxLevels; // set to total number of screens you're using

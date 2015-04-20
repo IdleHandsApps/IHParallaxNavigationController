@@ -37,6 +37,7 @@
 		4C3BC5111AD4CDA4007B7227 /* spacex.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spacex.jpg; sourceTree = "<group>"; };
 		4C7E32311AE4684200D6F089 /* bushpath.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bushpath.jpg; sourceTree = "<group>"; };
 		4C7E32361AE4881E00D6F089 /* IHParallaxNavigationController.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = IHParallaxNavigationController.podspec; sourceTree = SOURCE_ROOT; };
+		4C7E32371AE4A64D00D6F089 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		4C99DE551AD4D9AD00D02484 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,6 +92,7 @@
 				4C99DE541AD4D9AD00D02484 /* Main.storyboard */,
 				4C3BC4FC1AD39BE9007B7227 /* Images.xcassets */,
 				4C7E32361AE4881E00D6F089 /* IHParallaxNavigationController.podspec */,
+				4C7E32371AE4A64D00D6F089 /* README.md */,
 				4C3BC4FD1AD39BE9007B7227 /* Info.plist */,
 				4C3BC4FE1AD39BE9007B7227 /* main.m */,
 				4C3BC5111AD4CDA4007B7227 /* spacex.jpg */,

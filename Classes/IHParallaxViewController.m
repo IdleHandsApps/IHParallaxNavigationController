@@ -11,7 +11,6 @@
 #import "IHParallaxNavigationController.h"
 
 @interface IHParallaxViewController ()
-
 @end
 
 @implementation IHParallaxViewController
@@ -54,7 +53,6 @@
     [super viewDidLoad];
     
     self.view.backgroundColor = [UIColor clearColor];
-    self.navLevel = (int)self.navigationController.viewControllers.count - 1;
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -63,7 +61,7 @@
     [self setNavBarColor:self.customNavBarColor];
     
     if ([self.navigationController isKindOfClass:[IHParallaxNavigationController class]]) {
-        [((IHParallaxNavigationController *)self.navigationController) performParallaxAnimation:self.navLevel];
+        [((IHParallaxNavigationController *)self.navigationController) performParallaxAnimation:(int)self.navigationController.viewControllers.count - 1];
     }
     
     [UIView beginAnimations:nil context:nil];
@@ -85,7 +83,7 @@
     [super viewDidAppear:animated];
     
     if ([self.navigationController isKindOfClass:[IHParallaxNavigationController class]]) {
-        [((IHParallaxNavigationController *)self.navigationController) performParallaxAnimation:self.navLevel];
+        [((IHParallaxNavigationController *)self.navigationController) performParallaxAnimation:(int)self.navigationController.viewControllers.count - 1];
     }
     
     self.view.alpha = 1;

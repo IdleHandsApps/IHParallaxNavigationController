@@ -8,16 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@protocol IHParallaxDelegate <NSObject>
-
-- (void)performParallaxAnimation:(int)navLevel;
-
-@end
-
 @interface IHParallaxViewController : UIViewController
 
-@property (nonatomic, weak) NSObject <IHParallaxDelegate> *parallaxControllerDelegate;
-@property (nonatomic) int navLevel;
 @property (nonatomic, strong) UIColor *customNavBarColor;
 
 @end
