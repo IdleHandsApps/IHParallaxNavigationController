@@ -16,6 +16,8 @@
 		4C3BC50D1AD39C60007B7227 /* IHParallaxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3BC50B1AD39C60007B7227 /* IHParallaxViewController.m */; };
 		4C3BC5101AD39D0A007B7227 /* UIViewController+TransparentNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3BC50F1AD39D0A007B7227 /* UIViewController+TransparentNavBar.m */; };
 		4C3BC5121AD4CDA4007B7227 /* spacex.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C3BC5111AD4CDA4007B7227 /* spacex.jpg */; };
+		4C7E32321AE4684200D6F089 /* bushpath.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C7E32311AE4684200D6F089 /* bushpath.jpg */; };
+		4C7E32351AE46D4C00D6F089 /* IHParallaxNavigationController.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 4C7E32341AE46D4C00D6F089 /* IHParallaxNavigationController.podspec */; };
 		4C99DE561AD4D9AD00D02484 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C99DE541AD4D9AD00D02484 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +36,8 @@
 		4C3BC50E1AD39D0A007B7227 /* UIViewController+TransparentNavBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+TransparentNavBar.h"; path = "Classes/UIViewController+TransparentNavBar.h"; sourceTree = SOURCE_ROOT; };
 		4C3BC50F1AD39D0A007B7227 /* UIViewController+TransparentNavBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+TransparentNavBar.m"; path = "Classes/UIViewController+TransparentNavBar.m"; sourceTree = SOURCE_ROOT; };
 		4C3BC5111AD4CDA4007B7227 /* spacex.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spacex.jpg; sourceTree = "<group>"; };
+		4C7E32311AE4684200D6F089 /* bushpath.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bushpath.jpg; sourceTree = "<group>"; };
+		4C7E32341AE46D4C00D6F089 /* IHParallaxNavigationController.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = IHParallaxNavigationController.podspec; sourceTree = "<group>"; };
 		4C99DE551AD4D9AD00D02484 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,9 +91,11 @@
 				4C3BC4F81AD39BE9007B7227 /* LaunchScreen.xib */,
 				4C99DE541AD4D9AD00D02484 /* Main.storyboard */,
 				4C3BC4FC1AD39BE9007B7227 /* Images.xcassets */,
+				4C7E32341AE46D4C00D6F089 /* IHParallaxNavigationController.podspec */,
 				4C3BC4FD1AD39BE9007B7227 /* Info.plist */,
 				4C3BC4FE1AD39BE9007B7227 /* main.m */,
 				4C3BC5111AD4CDA4007B7227 /* spacex.jpg */,
+				4C7E32311AE4684200D6F089 /* bushpath.jpg */,
 			);
 			name = IHParallaxNavigationControllerDemo;
 			path = Example;
@@ -156,7 +162,9 @@
 				4C99DE561AD4D9AD00D02484 /* Main.storyboard in Resources */,
 				4C3BC5041AD39BE9007B7227 /* Images.xcassets in Resources */,
 				4C3BC5051AD39BE9007B7227 /* Info.plist in Resources */,
+				4C7E32321AE4684200D6F089 /* bushpath.jpg in Resources */,
 				4C3BC5121AD4CDA4007B7227 /* spacex.jpg in Resources */,
+				4C7E32351AE46D4C00D6F089 /* IHParallaxNavigationController.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

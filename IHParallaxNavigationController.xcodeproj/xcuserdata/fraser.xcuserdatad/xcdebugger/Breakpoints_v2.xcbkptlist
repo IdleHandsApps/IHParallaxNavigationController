@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Classes/UIViewController+TransparentNavBar.m"
-            timestampString = "450156657.52487"
+            timestampString = "451176968.438179"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "14"
-            endingLineNumber = "14"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
             landmarkName = "-setNavBarColor:"
             landmarkType = "5">
          </BreakpointContent>

@@ -18,14 +18,27 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     // set an image for the parallax background
-    [IHParallaxNavigationController setParallaxImage:[UIImage imageNamed:@"spacex.jpg"]];
+    NSString *randomBackgroundImage;
+    NSUInteger r = arc4random_uniform(2);
+    switch (r) {
+        case 0:
+            randomBackgroundImage = @"bushpath.jpg";
+            break;
+        case 1:
+            randomBackgroundImage = @"spacex.jpg";
+        default:
+            break;
+    }
+    [IHParallaxNavigationController setParallaxImage:[UIImage imageNamed:randomBackgroundImage]];
     
     // alternatively set any custom view for the parallax background
     //[IHParallaxNavigationController setParallaxView:[[UIView alloc] initWithFrame:[UIScreen mainScreen].bounds]];
     //self.parallaxView = [[UIView alloc] initWithFrame:self.view.bounds];
     
     // initialize a view that is fixed and floats above the parallax background image
-    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(8, 60, 300, 50)];
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(8, 90, [UIScreen mainScreen].bounds.size.width-16, 30)];
+    label.backgroundColor = [UIColor colorWithRed:0 green:0 blue:0 alpha:0.5];
+    label.textAlignment = NSTextAlignmentCenter;
     label.text = @"IHParallax Navigation Controller";
     label.textColor = [UIColor lightGrayColor];
     label.font = [UIFont systemFontOfSize:18];
