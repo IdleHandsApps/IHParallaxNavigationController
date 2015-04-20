@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'IHParallaxNavigationController'
-  s.version          = '1.1'
+  s.version          = '1.2'
   s.summary          = 'IHParallaxNavigationController is a UINavigationController subclass that uses a parallax effect when pushing and popping view controllers'
   s.homepage         = 'https://github.com/IdleHandsApps/IHParallaxNavigationController/'
   s.description      = <<-DESC
