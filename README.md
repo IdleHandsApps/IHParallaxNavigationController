@@ -1,6 +1,6 @@
 A drop in UINavigationController subclass that uses a parallax effect when pushing and popping view controllers
 
-<!-- ![alt demo](https://github.com/IdleHandsApps/IHKeyboardAvoiding/blob/gh-pages/IHKeyboardAvoidingDemo.gif)-->
+![alt demo](https://github.com/IdleHandsApps/IHParallaxNavigationController/blob/gh-pages/IHParallaxNavigationControllerDemo.gif)
 
 ## Description
 
