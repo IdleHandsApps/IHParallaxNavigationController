@@ -31,6 +31,9 @@
     }
     [IHParallaxNavigationController setParallaxImage:[UIImage imageNamed:randomBackgroundImage]];
     
+    [IHParallaxNavigationController setTotalParallaxLevels:4];
+    [IHParallaxNavigationController setParallaxSpan:50];
+    
     // alternatively set any custom view for the parallax background
     //[IHParallaxNavigationController setParallaxView:[[UIView alloc] initWithFrame:[UIScreen mainScreen].bounds]];
     //self.parallaxView = [[UIView alloc] initWithFrame:self.view.bounds];

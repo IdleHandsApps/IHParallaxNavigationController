@@ -9,6 +9,7 @@
 #import "IHParallaxNavigationController.h"
 
 @interface IHParallaxNavigationController ()
+- (void)performParallaxAnimation:(NSNumber *)navLevel;
 @end
 
 static IHParallaxNavigationController *_sharedParallaxNavController = nil;
@@ -116,6 +117,12 @@ static IHParallaxNavigationController *_sharedParallaxNavController = nil;
 }
 + (void)setFloatingView:(UIView *)floatingView {
     [_sharedParallaxNavController setFloatingView:floatingView];
+}
++ (void)setTotalParallaxLevels:(int)totalParallaxLevels {
+    [_sharedParallaxNavController setTotalParallaxLevels:totalParallaxLevels];
+}
++ (void)setParallaxSpan:(int)parallaxSpan {
+    [_sharedParallaxNavController setParallaxSpan:parallaxSpan];
 }
 
 @end
