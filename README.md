@@ -41,3 +41,4 @@ Distributed under the MIT License
 ## Do To
 
 * Finish ReadeMe
+* Pull out TransparentNavBar into a seperate Pod, as its unrelated really

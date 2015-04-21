@@ -8,7 +8,6 @@
 
 #import "IHParallaxViewController.h"
 #import "UIViewController+TransparentNavBar.h"
-#import "IHParallaxNavigationController.h"
 
 @interface IHParallaxViewController ()
 @end
@@ -55,13 +54,16 @@
     self.view.backgroundColor = [UIColor clearColor];
 }
 
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wundeclared-selector"
+
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     
     [self setNavBarColor:self.customNavBarColor];
     
-    if ([self.navigationController isKindOfClass:[IHParallaxNavigationController class]]) {
-        [((IHParallaxNavigationController *)self.navigationController) performParallaxAnimation:(int)self.navigationController.viewControllers.count - 1];
+    if ([self.navigationController respondsToSelector:@selector(performParallaxAnimation:)]) {
+        [self.navigationController performSelector:@selector(performParallaxAnimation:) withObject:[NSNumber numberWithInteger:self.navigationController.viewControllers.count - 1]];
     }
     
     [UIView beginAnimations:nil context:nil];
@@ -82,12 +84,14 @@
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
     
-    if ([self.navigationController isKindOfClass:[IHParallaxNavigationController class]]) {
-        [((IHParallaxNavigationController *)self.navigationController) performParallaxAnimation:(int)self.navigationController.viewControllers.count - 1];
+    if ([self.navigationController respondsToSelector:@selector(performParallaxAnimation:)]) {
+        [self.navigationController performSelector:@selector(performParallaxAnimation:) withObject:[NSNumber numberWithInteger:self.navigationController.viewControllers.count - 1]];
     }
     
     self.view.alpha = 1;
 }
+
+#pragma clang diagnostic pop
 
 - (void)viewWillDisappear:(BOOL)animated {
     [super viewWillDisappear:animated];

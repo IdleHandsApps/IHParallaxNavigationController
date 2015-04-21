@@ -21,8 +21,8 @@
                                 <rect key="frame" x="498" y="52" width="94" height="30"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="m0I-ID-QLe"/>
-                                    <constraint firstAttribute="width" constant="94" id="psV-wk-vbU"/>
+                                    <constraint firstAttribute="width" constant="94" id="Ska-fg-cQi"/>
+                                    <constraint firstAttribute="height" constant="30" id="tNI-kt-JVb"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <color key="tintColor" red="0.23529411759999999" green="0.60392156860000001" blue="0.73725490199999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -34,11 +34,147 @@
                                     <segue destination="YbF-zL-hMX" kind="show" id="mMr-GS-A5D"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uZQ-ql-pn3">
+                                <rect key="frame" x="150" y="150" width="300" height="350"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qjG-Mc-SgH">
+                                        <rect key="frame" x="8" y="46" width="284" height="272"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="272" id="or2-2g-I1M"/>
+                                        </constraints>
+                                        <attributedString key="attributedText">
+                                            <fragment>
+                                                <string key="content">In your Podfile add
+</string>
+                                                <attributes>
+                                                    <color key="NSColor" red="0.70196080207824707" green="0.70196080207824707" blue="0.70196080207824707" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="18" name="HelveticaNeue"/>
+                                                    <font key="NSOriginalFont" size="18" name="HelveticaNeue"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="pod 'IHParallaxNavigationController'">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.70196080207824707" green="0.70196080207824707" blue="0.70196080207824707" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="17" name="HelveticaNeue-Italic"/>
+                                                    <font key="NSOriginalFont" size="17" name="HelveticaNeue-Italic"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                                <attributes>
+                                                    <color key="NSColor" red="0.70196080207824707" green="0.70196080207824707" blue="0.70196080207824707" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="18" name="HelveticaNeue"/>
+                                                    <font key="NSOriginalFont" size="18" name="HelveticaNeue"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                                <attributes>
+                                                    <color key="NSColor" red="0.70196080207824707" green="0.70196080207824707" blue="0.70196080207824707" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="18" name="HelveticaNeue"/>
+                                                    <font key="NSOriginalFont" size="18" name="HelveticaNeue"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content">In your storyboard, change your UINavigationController to a IHParallaxNavigationController
+</string>
+                                                <attributes>
+                                                    <color key="NSColor" red="0.70196080207824707" green="0.70196080207824707" blue="0.70196080207824707" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="18" name="HelveticaNeue"/>
+                                                    <font key="NSOriginalFont" size="18" name="HelveticaNeue"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                                <attributes>
+                                                    <color key="NSColor" red="0.70196080207824707" green="0.70196080207824707" blue="0.70196080207824707" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="18" name="HelveticaNeue"/>
+                                                    <font key="NSOriginalFont" size="18" name="HelveticaNeue"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content">Then change your UIViewControllers to IHParallaxViewControllers
+</string>
+                                                <attributes>
+                                                    <color key="NSColor" red="0.70196080207824707" green="0.70196080207824707" blue="0.70196080207824707" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="18" name="HelveticaNeue"/>
+                                                    <font key="NSOriginalFont" size="18" name="HelveticaNeue"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                                <attributes>
+                                                    <color key="NSColor" red="0.70196080207824707" green="0.70196080207824707" blue="0.70196080207824707" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="18" name="HelveticaNeue"/>
+                                                    <font key="NSOriginalFont" size="18" name="HelveticaNeue"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content">Then just call 
+</string>
+                                                <attributes>
+                                                    <color key="NSColor" red="0.70196080207824707" green="0.70196080207824707" blue="0.70196080207824707" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="18" name="HelveticaNeue"/>
+                                                    <font key="NSOriginalFont" size="18" name="HelveticaNeue"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="setParallaxImage:(UIImage *)image">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.70196080207824707" green="0.70196080207824707" blue="0.70196080207824707" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="18" name="HelveticaNeue-Italic"/>
+                                                    <font key="NSOriginalFont" size="18" name="HelveticaNeue-Italic"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Steps to Install" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fEB-fa-Vk0">
+                                        <rect key="frame" x="8" y="12" width="284" height="22"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="22" id="qnk-xz-uIQ"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.70000000000000007" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="qjG-Mc-SgH" firstAttribute="top" secondItem="fEB-fa-Vk0" secondAttribute="bottom" constant="12" id="EyN-M0-QT8"/>
+                                    <constraint firstAttribute="width" constant="300" id="Ihy-K0-MSl"/>
+                                    <constraint firstItem="qjG-Mc-SgH" firstAttribute="leading" secondItem="uZQ-ql-pn3" secondAttribute="leading" constant="8" id="Xuh-eB-MoM"/>
+                                    <constraint firstItem="fEB-fa-Vk0" firstAttribute="leading" secondItem="uZQ-ql-pn3" secondAttribute="leading" constant="8" id="fgU-gc-O6L"/>
+                                    <constraint firstItem="fEB-fa-Vk0" firstAttribute="top" secondItem="uZQ-ql-pn3" secondAttribute="top" constant="12" id="ja9-6F-JFU"/>
+                                    <constraint firstAttribute="trailing" secondItem="fEB-fa-Vk0" secondAttribute="trailing" constant="8" id="muZ-s7-QOF"/>
+                                    <constraint firstAttribute="height" constant="350" id="pTM-VF-XhY"/>
+                                    <constraint firstAttribute="trailing" secondItem="qjG-Mc-SgH" secondAttribute="trailing" constant="8" id="zMJ-yk-R76"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="FUw-ss-OLB" firstAttribute="trailing" secondItem="FDl-y3-NT1" secondAttribute="trailingMargin" constant="8" id="0V6-po-CQg"/>
-                            <constraint firstItem="FUw-ss-OLB" firstAttribute="top" secondItem="V48-1e-FIg" secondAttribute="bottom" constant="8" id="L5u-t1-2pS"/>
+                            <constraint firstItem="FUw-ss-OLB" firstAttribute="top" secondItem="V48-1e-FIg" secondAttribute="bottom" constant="8" id="3TA-ui-ENl"/>
+                            <constraint firstItem="uZQ-ql-pn3" firstAttribute="top" secondItem="V48-1e-FIg" secondAttribute="bottom" constant="106" id="8sp-bt-nwf"/>
+                            <constraint firstAttribute="centerX" secondItem="uZQ-ql-pn3" secondAttribute="centerX" id="GFl-xg-oCT"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="FUw-ss-OLB" secondAttribute="trailing" constant="-8" id="s6P-sS-jg1"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="DOU-0r-rka"/>
@@ -89,11 +225,136 @@
                                     <segue destination="jZ5-Lm-dUB" kind="show" id="9T9-EU-Y0F"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ur0-lr-WiY">
+                                <rect key="frame" x="150" y="150" width="300" height="350"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aqz-h6-Pen">
+                                        <rect key="frame" x="8" y="48" width="284" height="252"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="252" id="QiC-So-3u8"/>
+                                        </constraints>
+                                        <attributedString key="attributedText">
+                                            <fragment content="Set ">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.70196080207824707" green="0.70196080207824707" blue="0.70196080207824707" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="18" name="HelveticaNeue"/>
+                                                    <font key="NSOriginalFont" size="18" name="HelveticaNeue"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="totalParallaxLevel">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.70196080207824707" green="0.70196080207824707" blue="0.70196080207824707" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="18" name="HelveticaNeue-Italic"/>
+                                                    <font key="NSOriginalFont" size="18" name="HelveticaNeue-Italic"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content"> to the total number of UIParallaxViewControllers in your navigation stack
+</string>
+                                                <attributes>
+                                                    <color key="NSColor" red="0.70196080207824707" green="0.70196080207824707" blue="0.70196080207824707" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="18" name="HelveticaNeue"/>
+                                                    <font key="NSOriginalFont" size="18" name="HelveticaNeue"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                                <attributes>
+                                                    <color key="NSColor" red="0.70196080207824707" green="0.70196080207824707" blue="0.70196080207824707" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="18" name="HelveticaNeue"/>
+                                                    <font key="NSOriginalFont" size="18" name="HelveticaNeue"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="Set ">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.70196080207824707" green="0.70196080207824707" blue="0.70196080207824707" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="18" name="HelveticaNeue"/>
+                                                    <font key="NSOriginalFont" size="18" name="HelveticaNeue"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="parallaxSpan">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.70196080207824707" green="0.70196080207824707" blue="0.70196080207824707" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="18" name="HelveticaNeue-Italic"/>
+                                                    <font key="NSOriginalFont" size="18" name="HelveticaNeue-Italic"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content"> to to change the displacement of each transition (default is 30)
+</string>
+                                                <attributes>
+                                                    <color key="NSColor" red="0.70196080207824707" green="0.70196080207824707" blue="0.70196080207824707" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="18" name="HelveticaNeue"/>
+                                                    <font key="NSOriginalFont" size="18" name="HelveticaNeue"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content">
+Set </string>
+                                                <attributes>
+                                                    <color key="NSColor" red="0.70196080207824707" green="0.70196080207824707" blue="0.70196080207824707" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="18" name="HelveticaNeue"/>
+                                                    <font key="NSOriginalFont" size="18" name="HelveticaNeue"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="customNavBar">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.70196080207824707" green="0.70196080207824707" blue="0.70196080207824707" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="18" name="HelveticaNeue-Italic"/>
+                                                    <font key="NSOriginalFont" size="18" name="HelveticaNeue-Italic"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content=" color to: nil=grey, clearColor=transparent, or any UIColor of you choice">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.70196080207824707" green="0.70196080207824707" blue="0.70196080207824707" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="18" name="HelveticaNeue"/>
+                                                    <font key="NSOriginalFont" size="18" name="HelveticaNeue"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Optional Extras" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5C1-XA-Db9">
+                                        <rect key="frame" x="8" y="12" width="284" height="24"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="24" id="hFq-fg-yF3"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.70000000000000007" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="5C1-XA-Db9" secondAttribute="trailing" constant="8" id="Cx6-oH-tF2"/>
+                                    <constraint firstAttribute="width" constant="300" id="GZN-xq-PDk"/>
+                                    <constraint firstItem="5C1-XA-Db9" firstAttribute="top" secondItem="ur0-lr-WiY" secondAttribute="top" constant="12" id="HPt-Wc-dOd"/>
+                                    <constraint firstItem="5C1-XA-Db9" firstAttribute="leading" secondItem="ur0-lr-WiY" secondAttribute="leading" constant="8" id="SzM-Rv-2hl"/>
+                                    <constraint firstAttribute="height" constant="350" id="dMg-E9-s91"/>
+                                    <constraint firstAttribute="trailing" secondItem="aqz-h6-Pen" secondAttribute="trailing" constant="8" id="gzS-Vh-shP"/>
+                                    <constraint firstItem="aqz-h6-Pen" firstAttribute="leading" secondItem="ur0-lr-WiY" secondAttribute="leading" constant="8" id="pHk-Mg-6i2"/>
+                                    <constraint firstItem="aqz-h6-Pen" firstAttribute="top" secondItem="5C1-XA-Db9" secondAttribute="bottom" constant="12" id="yIl-mJ-n4c"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="ur0-lr-WiY" firstAttribute="top" secondItem="Qjm-ep-m0F" secondAttribute="bottom" constant="106" id="9dE-Ml-Q9b"/>
                             <constraint firstItem="QpG-HH-IAX" firstAttribute="top" secondItem="Qjm-ep-m0F" secondAttribute="bottom" constant="8" id="gKF-Q7-zlp"/>
                             <constraint firstItem="QpG-HH-IAX" firstAttribute="trailing" secondItem="nfw-yQ-V7b" secondAttribute="trailingMargin" constant="8" id="okw-TE-vhR"/>
+                            <constraint firstAttribute="centerX" secondItem="ur0-lr-WiY" secondAttribute="centerX" id="zT7-Nc-AuL"/>
                         </constraints>
                     </view>
                     <toolbarItems/>
@@ -136,12 +397,139 @@
                                     <segue destination="l5Z-hm-UNp" kind="show" id="rPA-pX-GUL"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5d0-lj-6G4">
+                                <rect key="frame" x="150" y="150" width="300" height="350"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nv8-SF-lwh">
+                                        <rect key="frame" x="8" y="48" width="284" height="147"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="147" id="wsI-7X-Qyx"/>
+                                        </constraints>
+                                        <attributedString key="attributedText">
+                                            <fragment content="Set ">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.70196080207824707" green="0.70196080207824707" blue="0.70196080207824707" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="18" name="HelveticaNeue"/>
+                                                    <font key="NSOriginalFont" size="18" name="HelveticaNeue"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="parallaxView">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.70196080207824707" green="0.70196080207824707" blue="0.70196080207824707" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="18" name="HelveticaNeue-Italic"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content=" ">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.70196080207824707" green="0.70196080207824707" blue="0.70196080207824707" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="18" name="HelveticaNeue"/>
+                                                    <font key="NSOriginalFont" size="18" name="HelveticaNeue"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="if you want a custom background UIView, instead of a simple UIImage">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.70196080207824707" green="0.70196080207824707" blue="0.70196080207824707" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="18" name="HelveticaNeue"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                                <attributes>
+                                                    <color key="NSColor" red="0.70196080207824707" green="0.70196080207824707" blue="0.70196080207824707" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="18" name="HelveticaNeue"/>
+                                                    <font key="NSOriginalFont" size="18" name="HelveticaNeue"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                                <attributes>
+                                                    <color key="NSColor" red="0.70196080207824707" green="0.70196080207824707" blue="0.70196080207824707" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="18" name="HelveticaNeue"/>
+                                                    <font key="NSOriginalFont" size="18" name="HelveticaNeue"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="Set ">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.70196080207824707" green="0.70196080207824707" blue="0.70196080207824707" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="18" name="HelveticaNeue"/>
+                                                    <font key="NSOriginalFont" size="18" name="HelveticaNeue"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="floatingView">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.70196080207824707" green="0.70196080207824707" blue="0.70196080207824707" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="18" name="HelveticaNeue-Italic"/>
+                                                    <font key="NSOriginalFont" size="18" name="HelveticaNeue-Italic"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content=" ">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.70196080207824707" green="0.70196080207824707" blue="0.70196080207824707" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="18" name="HelveticaNeue"/>
+                                                    <font key="NSOriginalFont" size="18" name="HelveticaNeue"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="if you want a UIView that remains static in front of the parallaxView">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.70196080207824707" green="0.70196080207824707" blue="0.70196080207824707" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="18" name="HelveticaNeue"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="More Extras" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="biD-Hg-OVQ">
+                                        <rect key="frame" x="8" y="12" width="284" height="24"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="24" id="vZY-yi-axu"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.70000000000000007" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="biD-Hg-OVQ" firstAttribute="top" secondItem="5d0-lj-6G4" secondAttribute="top" constant="12" id="7SX-k5-8D6"/>
+                                    <constraint firstAttribute="width" constant="300" id="8YE-Dn-oWg"/>
+                                    <constraint firstAttribute="height" constant="350" id="8iT-BT-xYb"/>
+                                    <constraint firstAttribute="trailing" secondItem="biD-Hg-OVQ" secondAttribute="trailing" constant="8" id="IBb-lA-eis"/>
+                                    <constraint firstAttribute="trailing" secondItem="Nv8-SF-lwh" secondAttribute="trailing" constant="8" id="OVC-LG-IxS"/>
+                                    <constraint firstItem="biD-Hg-OVQ" firstAttribute="leading" secondItem="5d0-lj-6G4" secondAttribute="leading" constant="8" id="VXO-az-3h5"/>
+                                    <constraint firstItem="Nv8-SF-lwh" firstAttribute="leading" secondItem="5d0-lj-6G4" secondAttribute="leading" constant="8" id="ZhZ-8j-uYN"/>
+                                    <constraint firstItem="Nv8-SF-lwh" firstAttribute="top" secondItem="biD-Hg-OVQ" secondAttribute="bottom" constant="12" id="nAa-bA-E8U"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="JQJ-fz-Oy0" firstAttribute="top" secondItem="fmd-Rd-s1P" secondAttribute="bottom" constant="8" id="1AD-2D-s75"/>
                             <constraint firstItem="JQJ-fz-Oy0" firstAttribute="trailing" secondItem="RAr-fg-cfc" secondAttribute="trailingMargin" constant="8" id="1Ho-jh-juO"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="5d0-lj-6G4" secondAttribute="trailing" constant="134" id="5Nl-kX-joJ"/>
+                            <constraint firstItem="5d0-lj-6G4" firstAttribute="leading" secondItem="RAr-fg-cfc" secondAttribute="leadingMargin" constant="134" id="7o0-WL-v2q"/>
+                            <constraint firstAttribute="centerX" secondItem="5d0-lj-6G4" secondAttribute="centerX" id="BYR-A0-Bqh"/>
+                            <constraint firstItem="5d0-lj-6G4" firstAttribute="top" secondItem="fmd-Rd-s1P" secondAttribute="bottom" constant="106" id="lh0-vs-Vsv"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="5Nl-kX-joJ"/>
+                                <exclude reference="7o0-WL-v2q"/>
+                            </mask>
+                        </variation>
                     </view>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="color" keyPath="customNavBarColor">
@@ -164,7 +552,94 @@
                     <view key="view" contentMode="scaleToFill" id="BBU-Xs-TJj">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hOF-Jf-EHy">
+                                <rect key="frame" x="150" y="150" width="300" height="350"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m7o-Wl-71g">
+                                        <rect key="frame" x="8" y="48" width="284" height="105"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="105" id="opg-Q6-Fs0"/>
+                                        </constraints>
+                                        <attributedString key="attributedText">
+                                            <fragment content="Kick your shoes off">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.70196080207824707" green="0.70196080207824707" blue="0.70196080207824707" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="18" name="HelveticaNeue"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                                <attributes>
+                                                    <color key="NSColor" red="0.70196080207824707" green="0.70196080207824707" blue="0.70196080207824707" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="18" name="HelveticaNeue"/>
+                                                    <font key="NSOriginalFont" size="18" name="HelveticaNeue"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                                <attributes>
+                                                    <color key="NSColor" red="0.70196080207824707" green="0.70196080207824707" blue="0.70196080207824707" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="18" name="HelveticaNeue"/>
+                                                    <font key="NSOriginalFont" size="18" name="HelveticaNeue"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content">Put your feet up
+</string>
+                                                <attributes>
+                                                    <color key="NSColor" red="0.70196080207824707" green="0.70196080207824707" blue="0.70196080207824707" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="18" name="HelveticaNeue"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content">
+Have a coffee, you've earned it</string>
+                                                <attributes>
+                                                    <color key="NSColor" red="0.70196078431372544" green="0.70196078431372544" blue="0.70196078431372544" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="18" name="HelveticaNeue"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Then What" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UtU-nj-BSr">
+                                        <rect key="frame" x="8" y="8" width="284" height="28"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="24" id="6Hl-Uy-3aN"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.70000000000000007" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="UtU-nj-BSr" secondAttribute="trailing" constant="8" id="4P2-S4-tdb"/>
+                                    <constraint firstAttribute="width" constant="300" id="HIp-b1-kvk"/>
+                                    <constraint firstItem="UtU-nj-BSr" firstAttribute="leading" secondItem="hOF-Jf-EHy" secondAttribute="leading" constant="8" id="LDs-Hx-bod"/>
+                                    <constraint firstItem="UtU-nj-BSr" firstAttribute="top" secondItem="hOF-Jf-EHy" secondAttribute="top" constant="12" id="MnV-Jh-cCd"/>
+                                    <constraint firstAttribute="height" constant="350" id="P24-bj-bmM"/>
+                                    <constraint firstItem="m7o-Wl-71g" firstAttribute="top" secondItem="UtU-nj-BSr" secondAttribute="bottom" constant="12" id="hzg-j2-gF6"/>
+                                    <constraint firstItem="m7o-Wl-71g" firstAttribute="leading" secondItem="hOF-Jf-EHy" secondAttribute="leading" constant="8" id="oZ1-xR-V4S"/>
+                                    <constraint firstAttribute="trailing" secondItem="m7o-Wl-71g" secondAttribute="trailing" constant="8" id="zOI-G4-JEG"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="hOF-Jf-EHy" firstAttribute="top" secondItem="kJV-mi-a0P" secondAttribute="bottom" constant="106" id="AzA-Oz-zYs"/>
+                            <constraint firstAttribute="centerX" secondItem="hOF-Jf-EHy" secondAttribute="centerX" id="Dli-22-qBI"/>
+                        </constraints>
                     </view>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="color" keyPath="customNavBarColor">

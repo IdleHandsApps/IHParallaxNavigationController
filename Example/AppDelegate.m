@@ -36,12 +36,12 @@
     //self.parallaxView = [[UIView alloc] initWithFrame:self.view.bounds];
     
     // initialize a view that is fixed and floats above the parallax background image
-    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(8, 90, [UIScreen mainScreen].bounds.size.width-16, 30)];
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(([UIScreen mainScreen].bounds.size.width-300)/2, 96, 300, 38)];
     label.backgroundColor = [UIColor colorWithRed:0 green:0 blue:0 alpha:0.5];
     label.textAlignment = NSTextAlignmentCenter;
     label.text = @"IHParallax Navigation Controller";
     label.textColor = [UIColor lightGrayColor];
-    label.font = [UIFont systemFontOfSize:18];
+    label.font = [UIFont systemFontOfSize:20];
     [IHParallaxNavigationController setFloatingView:label];
     
     // appearance

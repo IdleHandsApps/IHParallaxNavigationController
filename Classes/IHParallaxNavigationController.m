@@ -7,7 +7,6 @@
 //
 
 #import "IHParallaxNavigationController.h"
-#import "UIViewController+TransparentNavBar.h"
 
 @interface IHParallaxNavigationController ()
 @end
@@ -92,17 +91,19 @@ static IHParallaxNavigationController *_sharedParallaxNavController = nil;
     [self.view sendSubviewToBack:_parallaxView];
 }
 
-- (void)performParallaxAnimation:(int)navLevel {
-    int parallaxDistance = navLevel * self.parallaxSpan;
-    float duration = navLevel > self.currentParallaxLevel ? 0.4 : 0.2;
+- (void)performParallaxAnimation:(NSNumber *)navLevel {
     
-    if (self.currentParallaxLevel != navLevel) {
+    
+    int parallaxDistance = [navLevel intValue] * self.parallaxSpan;
+    float duration = [navLevel intValue] > self.currentParallaxLevel ? 0.4 : 0.2;
+    
+    if (self.currentParallaxLevel != [navLevel intValue]) {
         [UIView animateWithDuration:duration delay:0 options:UIViewAnimationOptionCurveEaseInOut animations:^{
             self.parallaxView.transform = CGAffineTransformTranslate(CGAffineTransformIdentity, -parallaxDistance, 0);
         } completion:^(BOOL finish){}];
     }
     
-    self.currentParallaxLevel = navLevel;
+    self.currentParallaxLevel = [navLevel intValue];
 }
 
 #pragma - mark static methods

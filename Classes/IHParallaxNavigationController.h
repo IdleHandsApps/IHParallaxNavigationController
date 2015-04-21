@@ -18,7 +18,7 @@
 @property (nonatomic, strong) UIView *floatingView; // you can provide your own custom floating fixed view
 
 - (void)setParallaxImage:(UIImage *)image;
-- (void)performParallaxAnimation:(int)navLevel;
+- (void)performParallaxAnimation:(NSNumber *)navLevel;
 
 // static setters
 + (void)setParallaxImage:(UIImage *)image;
