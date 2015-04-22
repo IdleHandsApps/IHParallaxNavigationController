@@ -43,7 +43,7 @@ Optional methods
 
 Set totalParallaxLevels to the maximum number of UIParallaxViewControllers in your navigation stack, to ensure your background parallax view is scaled correctly (default is 2)
 
-Set parallaxSpan to to change the displacement of each transition (default is 30)
+Set parallaxSpan to to change the displacement of each transition (default is 30). Setting parallaxSpan=0 will disable the parallax effect
 
 Set customNavBar color to: nil=grey, clearColor=transparent, or any UIColor of you choice (default is clearColor)
 
