@@ -6,9 +6,9 @@ A drop in UINavigationController subclass that uses a parallax effect when pushi
 
 IHParallaxNavigationController is a drop in solution to give you a cool parallax effect when pushing and popping view controllers. Its compatible with Storyboards and requires very little code.
 
-In your storyboard, just change the UINavigationController class to IHParallaxNavigationController and your UIViewControllers to IHParallaxViewController, then in code set the parallax background image and you are done
+In your storyboard, just change the UINavigationController class to IHParallaxNavigationController and your UIViewControllers to IHParallaxViewControllers, then in code set the parallax background image and you are done
 
-All animations, transitions and gestures automatically performed by UINavigationControllers are supported by IHParallaxNavigationController as its a subclass.
+IHParallaxNavigationController is a sublass of UINavigationController so all standard animations, transitions and gestures are supported.
 
 ## How to install
 
@@ -41,9 +41,9 @@ IHParallaxViewController *parallaxController = [[IHParallaxViewController alloc]
 
 Optional methods    
 
-Set totalParallaxLevels to the total number of UIParallaxViewControllers in your navigation stack, to ensure your background parallax view is scaled correctly
+Set totalParallaxLevels to the maximum number of UIParallaxViewControllers in your navigation stack, to ensure your background parallax view is scaled correctly (default is 2)
 Set parallaxSpan to to change the displacement of each transition (default is 30)
-Set customNavBar color to: nil=grey, clearColor=transparent, or any UIColor of you choice
+Set customNavBar color to: nil=grey, clearColor=transparent, or any UIColor of you choice (default is clearColor)
 
 ## Treat yourself to these other libraries of mine
 
@@ -63,4 +63,4 @@ Distributed under the MIT License
 
 ## Do To
 
-* Pull out TransparentNavBar into a seperate Pod as its really a seperate feature
+* Pull out TransparentNavBar category into a seperate Pod as its really a seperate feature
