@@ -19,14 +19,37 @@ pod 'IHParallaxNavigationController'
 
 ## How to use
 
+Using storyboards:
+
+Change your UINavigationController to a IHParallaxNavigationController
+Then change your UIViewControllers to IHParallaxViewControllers
+Then just call ```setParallaxImage:(UIImage *)image``` to set the background parallax view
+
+Without storyboards:
+
+Initialise the navigation controller
+```objective-c
+IHParallaxNavigationController *parallaxNavController = [[IHParallaxNavigationController alloc] initWithRootViewController:rootController];
+[parallaxNavController setParallaxImage:[UIImage imageNamed:@"my_img"]];
+```
+
+When you add a view controller to the navigation stack, ensure its a subclass of IHParallaxViewController
+```objective-c
+IHParallaxViewController *parallaxController = [[IHParallaxViewController alloc] init];
+[parallaxNavController pushViewController:parallaxController animated:YES];
+```
 
 Optional methods    
 
-## treat yourself to other libraries Ive written
+Set totalParallaxLevels to the total number of UIParallaxViewControllers in your navigation stack, to ensure your background parallax view is scaled correctly
+Set parallaxSpan to to change the displacement of each transition (default is 30)
+Set customNavBar color to: nil=grey, clearColor=transparent, or any UIColor of you choice
+
+## Treat yourself to these other libraries of mine
 
 An elegant solution for keeping any UIView visible when the keyboard is being shown https://github.com/IdleHandsApps/IHKeyboardAvoiding
-Tap to dismiss the keyboard with IHKeyboardDismissing https://github.com/IdleHandsApps/IHKeyboardDismissing
 
+Tap to dismiss the keyboard with IHKeyboardDismissing https://github.com/IdleHandsApps/IHKeyboardDismissing
 
 ## Author
 
@@ -40,5 +63,4 @@ Distributed under the MIT License
 
 ## Do To
 
-* Finish ReadeMe
-* Pull out TransparentNavBar into a seperate Pod, as its unrelated really
+* Pull out TransparentNavBar into a seperate Pod as its really a seperate feature
