@@ -62,7 +62,3 @@ It'd be great to hear about any cool apps that are using IHParallaxNavigationCon
 ## License 
 
 Distributed under the MIT License
-
-## Do To
-
-* Pull out TransparentNavBar category into a seperate Pod as its really a seperate feature
