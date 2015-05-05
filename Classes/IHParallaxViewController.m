@@ -7,7 +7,6 @@
 //
 
 #import "IHParallaxViewController.h"
-#import "UIViewController+TransparentNavBar.h"
 
 @interface IHParallaxViewController ()
 @end
@@ -59,8 +58,6 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    
-    [self setNavBarColor:self.customNavBarColor];
     
     if ([self.navigationController respondsToSelector:@selector(performParallaxAnimation:)]) {
         [self.navigationController performSelector:@selector(performParallaxAnimation:) withObject:[NSNumber numberWithInteger:self.navigationController.viewControllers.count - 1]];

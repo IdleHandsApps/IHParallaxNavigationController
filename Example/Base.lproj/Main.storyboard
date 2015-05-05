@@ -5,10 +5,10 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--Parallax View Controller-->
+        <!--My Parallax View Controller-->
         <scene sceneID="Eqy-tX-nlO">
             <objects>
-                <viewController id="hc4-z8-eAc" customClass="IHParallaxViewController" sceneMemberID="viewController">
+                <viewController id="hc4-z8-eAc" customClass="MyParallaxViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="V48-1e-FIg"/>
                         <viewControllerLayoutGuide type="bottom" id="Fnx-gY-PbO"/>
@@ -189,10 +189,10 @@ Cg
             </objects>
             <point key="canvasLocation" x="518" y="260"/>
         </scene>
-        <!--Parallax View Controller-->
+        <!--My Parallax View Controller-->
         <scene sceneID="nTE-Kw-69Z">
             <objects>
-                <viewController id="YbF-zL-hMX" customClass="IHParallaxViewController" sceneMemberID="viewController">
+                <viewController id="YbF-zL-hMX" customClass="MyParallaxViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Qjm-ep-m0F"/>
                         <viewControllerLayoutGuide type="bottom" id="vQs-8q-3h7"/>
@@ -376,10 +376,10 @@ Set </string>
             </objects>
             <point key="canvasLocation" x="1208" y="260"/>
         </scene>
-        <!--Parallax View Controller-->
+        <!--My Parallax View Controller-->
         <scene sceneID="Gtf-Nq-wWW">
             <objects>
-                <viewController id="jZ5-Lm-dUB" customClass="IHParallaxViewController" sceneMemberID="viewController">
+                <viewController id="jZ5-Lm-dUB" customClass="MyParallaxViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="fmd-Rd-s1P"/>
                         <viewControllerLayoutGuide type="bottom" id="Njk-HQ-fju"/>
@@ -548,10 +548,10 @@ Cg
             </objects>
             <point key="canvasLocation" x="1937" y="260"/>
         </scene>
-        <!--Parallax View Controller-->
+        <!--My Parallax View Controller-->
         <scene sceneID="t2o-mq-eBU">
             <objects>
-                <viewController id="l5Z-hm-UNp" customClass="IHParallaxViewController" sceneMemberID="viewController">
+                <viewController id="l5Z-hm-UNp" customClass="MyParallaxViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="kJV-mi-a0P"/>
                         <viewControllerLayoutGuide type="bottom" id="dxg-Vv-Oxi"/>

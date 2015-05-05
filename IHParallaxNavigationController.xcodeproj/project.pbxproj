@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C2ECF221AF870A600B1A4A2 /* MyParallaxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2ECF211AF870A600B1A4A2 /* MyParallaxViewController.m */; };
+		4C2ECF251AF870EF00B1A4A2 /* UIViewController+TransparentNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2ECF241AF870EF00B1A4A2 /* UIViewController+TransparentNavBar.m */; };
 		4C3BC5011AD39BE9007B7227 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3BC4F71AD39BE9007B7227 /* AppDelegate.m */; };
 		4C3BC5021AD39BE9007B7227 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C3BC4F81AD39BE9007B7227 /* LaunchScreen.xib */; };
 		4C3BC5041AD39BE9007B7227 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C3BC4FC1AD39BE9007B7227 /* Images.xcassets */; };
@@ -14,13 +16,16 @@
 		4C3BC5061AD39BE9007B7227 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3BC4FE1AD39BE9007B7227 /* main.m */; };
 		4C3BC50C1AD39C60007B7227 /* IHParallaxNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3BC5091AD39C60007B7227 /* IHParallaxNavigationController.m */; };
 		4C3BC50D1AD39C60007B7227 /* IHParallaxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3BC50B1AD39C60007B7227 /* IHParallaxViewController.m */; };
-		4C3BC5101AD39D0A007B7227 /* UIViewController+TransparentNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3BC50F1AD39D0A007B7227 /* UIViewController+TransparentNavBar.m */; };
 		4C3BC5121AD4CDA4007B7227 /* spacex.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C3BC5111AD4CDA4007B7227 /* spacex.jpg */; };
 		4C7E32321AE4684200D6F089 /* bushpath.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C7E32311AE4684200D6F089 /* bushpath.jpg */; };
 		4C99DE561AD4D9AD00D02484 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C99DE541AD4D9AD00D02484 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C2ECF201AF870A600B1A4A2 /* MyParallaxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyParallaxViewController.h; sourceTree = "<group>"; };
+		4C2ECF211AF870A600B1A4A2 /* MyParallaxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyParallaxViewController.m; sourceTree = "<group>"; };
+		4C2ECF231AF870EF00B1A4A2 /* UIViewController+TransparentNavBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TransparentNavBar.h"; sourceTree = "<group>"; };
+		4C2ECF241AF870EF00B1A4A2 /* UIViewController+TransparentNavBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TransparentNavBar.m"; sourceTree = "<group>"; };
 		4C3BC4CB1AD39AC9007B7227 /* IHParallaxNavigationController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IHParallaxNavigationController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C3BC4F61AD39BE9007B7227 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4C3BC4F71AD39BE9007B7227 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -32,8 +37,6 @@
 		4C3BC5091AD39C60007B7227 /* IHParallaxNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IHParallaxNavigationController.m; path = Classes/IHParallaxNavigationController.m; sourceTree = SOURCE_ROOT; };
 		4C3BC50A1AD39C60007B7227 /* IHParallaxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IHParallaxViewController.h; path = Classes/IHParallaxViewController.h; sourceTree = SOURCE_ROOT; };
 		4C3BC50B1AD39C60007B7227 /* IHParallaxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IHParallaxViewController.m; path = Classes/IHParallaxViewController.m; sourceTree = SOURCE_ROOT; };
-		4C3BC50E1AD39D0A007B7227 /* UIViewController+TransparentNavBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+TransparentNavBar.h"; path = "Classes/UIViewController+TransparentNavBar.h"; sourceTree = SOURCE_ROOT; };
-		4C3BC50F1AD39D0A007B7227 /* UIViewController+TransparentNavBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+TransparentNavBar.m"; path = "Classes/UIViewController+TransparentNavBar.m"; sourceTree = SOURCE_ROOT; };
 		4C3BC5111AD4CDA4007B7227 /* spacex.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spacex.jpg; sourceTree = "<group>"; };
 		4C7E32311AE4684200D6F089 /* bushpath.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bushpath.jpg; sourceTree = "<group>"; };
 		4C7E32361AE4881E00D6F089 /* IHParallaxNavigationController.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = IHParallaxNavigationController.podspec; sourceTree = SOURCE_ROOT; };
@@ -76,8 +79,6 @@
 				4C3BC5091AD39C60007B7227 /* IHParallaxNavigationController.m */,
 				4C3BC50A1AD39C60007B7227 /* IHParallaxViewController.h */,
 				4C3BC50B1AD39C60007B7227 /* IHParallaxViewController.m */,
-				4C3BC50E1AD39D0A007B7227 /* UIViewController+TransparentNavBar.h */,
-				4C3BC50F1AD39D0A007B7227 /* UIViewController+TransparentNavBar.m */,
 			);
 			name = IHParallaxNavigationController;
 			path = IHParallaxBackground;
@@ -88,6 +89,10 @@
 			children = (
 				4C3BC4F61AD39BE9007B7227 /* AppDelegate.h */,
 				4C3BC4F71AD39BE9007B7227 /* AppDelegate.m */,
+				4C2ECF201AF870A600B1A4A2 /* MyParallaxViewController.h */,
+				4C2ECF211AF870A600B1A4A2 /* MyParallaxViewController.m */,
+				4C2ECF231AF870EF00B1A4A2 /* UIViewController+TransparentNavBar.h */,
+				4C2ECF241AF870EF00B1A4A2 /* UIViewController+TransparentNavBar.m */,
 				4C3BC4F81AD39BE9007B7227 /* LaunchScreen.xib */,
 				4C99DE541AD4D9AD00D02484 /* Main.storyboard */,
 				4C3BC4FC1AD39BE9007B7227 /* Images.xcassets */,
@@ -175,11 +180,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C2ECF221AF870A600B1A4A2 /* MyParallaxViewController.m in Sources */,
+				4C2ECF251AF870EF00B1A4A2 /* UIViewController+TransparentNavBar.m in Sources */,
 				4C3BC50C1AD39C60007B7227 /* IHParallaxNavigationController.m in Sources */,
 				4C3BC5061AD39BE9007B7227 /* main.m in Sources */,
 				4C3BC5011AD39BE9007B7227 /* AppDelegate.m in Sources */,
 				4C3BC50D1AD39C60007B7227 /* IHParallaxViewController.m in Sources */,
-				4C3BC5101AD39D0A007B7227 /* UIViewController+TransparentNavBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
