@@ -1,3 +1,5 @@
+![alt icon](https://github.com/IdleHandsApps/IHParallaxNavigationController/blob/gh-pages/Icon-40.png) IHParallaxNavigationController
+------------------------------
 A drop in UINavigationController subclass that uses a parallax effect when pushing and popping view controllers
 
 ![alt demo](https://github.com/IdleHandsApps/IHParallaxNavigationController/blob/gh-pages/IHParallaxNavigationControllerDemo.gif)
